@@ -1,0 +1,95 @@
+.contact{
+    background-color: #1d1d1d;
+    height: 570px;
+    position: relative;
+    .con-img{
+        right: 0;
+        transform: translate(-75%,-73%);
+        position: absolute;
+    }
+    form {
+        max-width: 70%;
+        height: 400px;
+        background-color: #373737;
+        box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.6);
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(20%);
+        input{
+            color: white;
+            
+        }
+        p{
+            font-size: 2em;
+            color: #ad7835;
+            font-weight: 600;
+            margin-left: 80px;
+            padding-top: 20px;
+            margin-bottom: 5px;
+        }
+        h1{
+            padding: 10px 15px;
+            border: 1px solid #ad7835;
+            width: 120px;
+            color: #ad7835;
+            cursor: pointer;
+            margin-left: 80px;
+            margin-top: 30px;
+            
+        }
+        .under-line{
+            width: 70px;
+            height: 3px;
+            background-color: #b28145;
+            border-radius: 1px;
+            margin-left: 80px;
+            margin-bottom: 40px;
+            
+        }
+        #email{
+            padding: 10px;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid white;
+            background-color: #373737;
+            height: 30px;
+            &::placeholder{
+                font-size: 1.3em;
+                color: rgba(255, 255, 255, 0.719);
+            }
+            
+        }
+        #name{
+            padding: 10px;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid white;
+            background-color: #373737;
+            margin-left: 80px;
+            height: 30px;
+            &::placeholder{
+                font-size: 1.3em;
+                color:rgba(255, 255, 255, 0.719);
+            }
+        }
+        #message{
+            display: block;
+            padding: 10px;
+            background-color: #373737;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 362px;
+            height: 80px;
+            margin-left: 80px;
+            margin-top: 20px;
+            
+            &::placeholder{
+                font-size: 1.3em;
+                color: rgba(255, 255, 255, 0.719);
+            }
+        }
+    }
+
+}

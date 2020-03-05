@@ -1,0 +1,52 @@
+.gallery{
+    background-color: #1d1d1d;
+    .gallery-title{
+        margin-left: 10%;
+        margin-bottom: 50px;
+        h1{
+            font-size: 3em;
+            color: #ad7835;
+            font-weight: 600;
+        }
+        .under-line{
+            width: 85px;
+            height: 3px;
+            background-color: #b28145;
+            border-radius: 1px;
+        }
+    }
+    .img-gallery{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+        grid-gap: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        img{
+            cursor: pointer;
+        }
+        
+    }
+    .show{
+        padding: 10px 50px;
+        outline: none;
+        color: #ad7835;
+        background-color: #1d1d1d;
+        border: 1px solid #b28145;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        display: block;
+    }
+    .more-img{
+        img{
+            cursor: pointer;
+            margin-right: 15px;
+        }
+        display: none;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+}

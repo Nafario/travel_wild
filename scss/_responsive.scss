@@ -1,0 +1,45 @@
+@media screen and (max-width: 1395px){
+    .art-sec-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .img-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        box-sizing: border-box;
+
+        img{
+            
+            box-sizing: border-box;
+        }
+        
+    }
+    .con-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 920px){
+    .about-img{
+        display: none;
+    }
+    .con-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 920px){
+    #name{
+        margin-left: 0px;
+        width: 200px;
+    }
+    #email{
+        margin-left: 80px;
+        width: 200px;
+    }
+    #message{
+        left: 0;
+        max-width: 220px;
+        box-sizing: border-box;
+    }
+}
